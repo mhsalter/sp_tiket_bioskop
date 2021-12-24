@@ -1,7 +1,10 @@
 # sptbioskop
-<h3>Tugas Akhir Sistem Penjualan Tiket Bioskop</h3>
+# Sistem Penjualan Tiket Bioskop
+Project akhir mata kuliah pemrograman visual oleh kelompok 9
 
-<h4>MAHESA RAMA TRIWIJAYA</h4>
-<h4>KAUTSAR ARIEF MUKHSININ</h4>
-<h4>MUHAMMAD ILHAM FACHLEVI</h4>
-<h4>HEDYA TIESYAPANA</h4>
+## Contributor
+Project akhir ini dikerjakan oleh :
+- Mahesa Rama Triwijaya
+- Kautsar Arief Mukhsinin
+- Muhammad Ilham Fachlevi
+- Hedya Tiesyapana
