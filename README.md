@@ -1,4 +1,3 @@
-# sptbioskop
 # Sistem Penjualan Tiket Bioskop
 Project akhir mata kuliah pemrograman visual oleh kelompok 9
 
