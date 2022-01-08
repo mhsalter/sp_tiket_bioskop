@@ -41,12 +41,12 @@ Partial Class HapusJadwal
         'LblJadwal
         '
         Me.LblJadwal.AutoSize = True
-        Me.LblJadwal.Font = New System.Drawing.Font("Microsoft Sans Serif", 22.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblJadwal.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LblJadwal.ForeColor = System.Drawing.Color.ForestGreen
         Me.LblJadwal.Location = New System.Drawing.Point(73, 49)
         Me.LblJadwal.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LblJadwal.Name = "LblJadwal"
-        Me.LblJadwal.Size = New System.Drawing.Size(141, 36)
+        Me.LblJadwal.Size = New System.Drawing.Size(91, 24)
         Me.LblJadwal.TabIndex = 7
         Me.LblJadwal.Text = "Jadwal ?"
         '
