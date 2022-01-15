@@ -32,7 +32,7 @@ Partial Class Tambah_Studio
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(56, 98)
+        Me.Label2.Location = New System.Drawing.Point(12, 9)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(53, 13)
         Me.Label2.TabIndex = 1
@@ -41,7 +41,7 @@ Partial Class Tambah_Studio
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(56, 132)
+        Me.Label3.Location = New System.Drawing.Point(12, 36)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(62, 13)
         Me.Label3.TabIndex = 2
@@ -49,21 +49,21 @@ Partial Class Tambah_Studio
         '
         'TxtKapasitas
         '
-        Me.TxtKapasitas.Location = New System.Drawing.Point(147, 98)
+        Me.TxtKapasitas.Location = New System.Drawing.Point(131, 6)
         Me.TxtKapasitas.Name = "TxtKapasitas"
         Me.TxtKapasitas.Size = New System.Drawing.Size(100, 20)
         Me.TxtKapasitas.TabIndex = 4
         '
         'TxtHargaKursi
         '
-        Me.TxtHargaKursi.Location = New System.Drawing.Point(147, 132)
+        Me.TxtHargaKursi.Location = New System.Drawing.Point(131, 33)
         Me.TxtHargaKursi.Name = "TxtHargaKursi"
         Me.TxtHargaKursi.Size = New System.Drawing.Size(100, 20)
         Me.TxtHargaKursi.TabIndex = 5
         '
         'BtnTambahStudio
         '
-        Me.BtnTambahStudio.Location = New System.Drawing.Point(147, 194)
+        Me.BtnTambahStudio.Location = New System.Drawing.Point(131, 70)
         Me.BtnTambahStudio.Name = "BtnTambahStudio"
         Me.BtnTambahStudio.Size = New System.Drawing.Size(100, 23)
         Me.BtnTambahStudio.TabIndex = 6
@@ -74,7 +74,7 @@ Partial Class Tambah_Studio
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(333, 269)
+        Me.ClientSize = New System.Drawing.Size(333, 116)
         Me.Controls.Add(Me.BtnTambahStudio)
         Me.Controls.Add(Me.TxtHargaKursi)
         Me.Controls.Add(Me.TxtKapasitas)

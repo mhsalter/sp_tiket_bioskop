@@ -32,11 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-<<<<<<< HEAD
-            Me.MainForm = Global.sp_tiket_bioskop.Jadwal
-=======
             Me.MainForm = Global.sp_tiket_bioskop.Studio
->>>>>>> hedya
         End Sub
     End Class
 End Namespace

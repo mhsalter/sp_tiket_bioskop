@@ -117,16 +117,29 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class_Studio.vb" />
     <Compile Include="EditJadwal.Designer.vb">
       <DependentUpon>EditJadwal.vb</DependentUpon>
     </Compile>
     <Compile Include="EditJadwal.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Edit_Studio.Designer.vb">
+      <DependentUpon>Edit_Studio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_Studio.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="HapusJadwal.Designer.vb">
       <DependentUpon>HapusJadwal.vb</DependentUpon>
     </Compile>
     <Compile Include="HapusJadwal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hapus_Studio.Designer.vb">
+      <DependentUpon>Hapus_Studio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Hapus_Studio.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Jadwal.Designer.vb">
@@ -152,6 +165,18 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Studio.Designer.vb">
+      <DependentUpon>Studio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Studio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tambah Studio.Designer.vb">
+      <DependentUpon>Tambah Studio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tambah Studio.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="TambahJadwal.Designer.vb">
       <DependentUpon>TambahJadwal.vb</DependentUpon>
     </Compile>
@@ -163,8 +188,14 @@
     <EmbeddedResource Include="EditJadwal.resx">
       <DependentUpon>EditJadwal.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Edit_Studio.resx">
+      <DependentUpon>Edit_Studio.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HapusJadwal.resx">
       <DependentUpon>HapusJadwal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hapus_Studio.resx">
+      <DependentUpon>Hapus_Studio.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Jadwal.resx">
       <DependentUpon>Jadwal.vb</DependentUpon>
@@ -174,6 +205,12 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Studio.resx">
+      <DependentUpon>Studio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tambah Studio.resx">
+      <DependentUpon>Tambah Studio.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TambahJadwal.resx">
       <DependentUpon>TambahJadwal.vb</DependentUpon>
@@ -189,8 +226,6 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-    <None Include="App.config" />
-    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -38,6 +38,7 @@ Partial Class EditJadwal
         'DTPWaktuSelesai
         '
         Me.DTPWaktuSelesai.CustomFormat = "HH:mm:ss"
+        Me.DTPWaktuSelesai.Enabled = False
         Me.DTPWaktuSelesai.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.DTPWaktuSelesai.Location = New System.Drawing.Point(201, 172)
         Me.DTPWaktuSelesai.Name = "DTPWaktuSelesai"
