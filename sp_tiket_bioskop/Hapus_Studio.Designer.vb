@@ -23,44 +23,44 @@ Partial Class Hapus_Studio
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.LblHapusStudio = New System.Windows.Forms.Label()
         Me.BtnHapusStudio = New System.Windows.Forms.Button()
+        Me.TBStudio = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(134, 69)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(12, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(162, 13)
+        Me.Label1.Size = New System.Drawing.Size(270, 20)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Apakah Ingin Menghapus Studio"
         '
-        'LblHapusStudio
-        '
-        Me.LblHapusStudio.AutoSize = True
-        Me.LblHapusStudio.Location = New System.Drawing.Point(191, 125)
-        Me.LblHapusStudio.Name = "LblHapusStudio"
-        Me.LblHapusStudio.Size = New System.Drawing.Size(37, 13)
-        Me.LblHapusStudio.TabIndex = 1
-        Me.LblHapusStudio.Text = "Studio"
-        '
         'BtnHapusStudio
         '
-        Me.BtnHapusStudio.Location = New System.Drawing.Point(173, 165)
+        Me.BtnHapusStudio.Location = New System.Drawing.Point(94, 87)
         Me.BtnHapusStudio.Name = "BtnHapusStudio"
-        Me.BtnHapusStudio.Size = New System.Drawing.Size(75, 23)
+        Me.BtnHapusStudio.Size = New System.Drawing.Size(100, 23)
         Me.BtnHapusStudio.TabIndex = 2
         Me.BtnHapusStudio.Text = "Hapus Studio"
         Me.BtnHapusStudio.UseVisualStyleBackColor = True
+        '
+        'TBStudio
+        '
+        Me.TBStudio.Enabled = False
+        Me.TBStudio.Location = New System.Drawing.Point(94, 42)
+        Me.TBStudio.Name = "TBStudio"
+        Me.TBStudio.Size = New System.Drawing.Size(100, 20)
+        Me.TBStudio.TabIndex = 3
         '
         'Hapus_Studio
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(427, 322)
+        Me.ClientSize = New System.Drawing.Size(296, 137)
+        Me.Controls.Add(Me.TBStudio)
         Me.Controls.Add(Me.BtnHapusStudio)
-        Me.Controls.Add(Me.LblHapusStudio)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Hapus_Studio"
         Me.Text = "Hapus_Studio"
@@ -70,6 +70,6 @@ Partial Class Hapus_Studio
     End Sub
 
     Friend WithEvents Label1 As Label
-    Friend WithEvents LblHapusStudio As Label
     Friend WithEvents BtnHapusStudio As Button
+    Friend WithEvents TBStudio As TextBox
 End Class

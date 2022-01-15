@@ -31,7 +31,7 @@ Partial Class Edit_Studio
         '
         'BtnEditStudio
         '
-        Me.BtnEditStudio.Location = New System.Drawing.Point(203, 210)
+        Me.BtnEditStudio.Location = New System.Drawing.Point(116, 79)
         Me.BtnEditStudio.Name = "BtnEditStudio"
         Me.BtnEditStudio.Size = New System.Drawing.Size(100, 23)
         Me.BtnEditStudio.TabIndex = 13
@@ -40,14 +40,14 @@ Partial Class Edit_Studio
         '
         'TxtHargaKursi
         '
-        Me.TxtHargaKursi.Location = New System.Drawing.Point(203, 148)
+        Me.TxtHargaKursi.Location = New System.Drawing.Point(116, 43)
         Me.TxtHargaKursi.Name = "TxtHargaKursi"
         Me.TxtHargaKursi.Size = New System.Drawing.Size(100, 20)
         Me.TxtHargaKursi.TabIndex = 12
         '
         'TxtKapasitas
         '
-        Me.TxtKapasitas.Location = New System.Drawing.Point(203, 114)
+        Me.TxtKapasitas.Location = New System.Drawing.Point(116, 12)
         Me.TxtKapasitas.Name = "TxtKapasitas"
         Me.TxtKapasitas.Size = New System.Drawing.Size(100, 20)
         Me.TxtKapasitas.TabIndex = 11
@@ -55,7 +55,7 @@ Partial Class Edit_Studio
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(112, 148)
+        Me.Label3.Location = New System.Drawing.Point(12, 46)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(62, 13)
         Me.Label3.TabIndex = 9
@@ -64,7 +64,7 @@ Partial Class Edit_Studio
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(112, 114)
+        Me.Label2.Location = New System.Drawing.Point(12, 15)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(53, 13)
         Me.Label2.TabIndex = 8
@@ -74,7 +74,8 @@ Partial Class Edit_Studio
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(414, 310)
+        Me.BackColor = System.Drawing.SystemColors.Control
+        Me.ClientSize = New System.Drawing.Size(273, 123)
         Me.Controls.Add(Me.BtnEditStudio)
         Me.Controls.Add(Me.TxtHargaKursi)
         Me.Controls.Add(Me.TxtKapasitas)

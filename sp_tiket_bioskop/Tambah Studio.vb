@@ -1,12 +1,4 @@
 ﻿Public Class Tambah_Studio
-
-    Public Sub New()
-
-        ' This call is required by the designer.
-        InitializeComponent()
-
-        ' Add any initialization after the InitializeComponent() call.
-    End Sub
     Private Sub TxtKapasitas_Leave(sender As Object, e As EventArgs) Handles TxtKapasitas.Leave
         If TxtKapasitas.Text.Length < 1 Then
             TxtKapasitas.Select()

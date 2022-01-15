@@ -32,34 +32,34 @@ Partial Class Studio
         'DataGridViewStudio
         '
         Me.DataGridViewStudio.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridViewStudio.Location = New System.Drawing.Point(55, 63)
+        Me.DataGridViewStudio.Location = New System.Drawing.Point(12, 12)
         Me.DataGridViewStudio.Name = "DataGridViewStudio"
         Me.DataGridViewStudio.Size = New System.Drawing.Size(343, 129)
         Me.DataGridViewStudio.TabIndex = 0
         '
         'BtnTambah
         '
-        Me.BtnTambah.Location = New System.Drawing.Point(55, 240)
+        Me.BtnTambah.Location = New System.Drawing.Point(12, 159)
         Me.BtnTambah.Name = "BtnTambah"
-        Me.BtnTambah.Size = New System.Drawing.Size(118, 23)
+        Me.BtnTambah.Size = New System.Drawing.Size(93, 23)
         Me.BtnTambah.TabIndex = 1
         Me.BtnTambah.Text = "Tambah Studio"
         Me.BtnTambah.UseVisualStyleBackColor = True
         '
         'BtnHapus
         '
-        Me.BtnHapus.Location = New System.Drawing.Point(191, 240)
+        Me.BtnHapus.Location = New System.Drawing.Point(138, 159)
         Me.BtnHapus.Name = "BtnHapus"
-        Me.BtnHapus.Size = New System.Drawing.Size(105, 23)
+        Me.BtnHapus.Size = New System.Drawing.Size(93, 23)
         Me.BtnHapus.TabIndex = 2
         Me.BtnHapus.Text = "Hapus Studio"
         Me.BtnHapus.UseVisualStyleBackColor = True
         '
         'BtnEdit
         '
-        Me.BtnEdit.Location = New System.Drawing.Point(316, 240)
+        Me.BtnEdit.Location = New System.Drawing.Point(262, 159)
         Me.BtnEdit.Name = "BtnEdit"
-        Me.BtnEdit.Size = New System.Drawing.Size(75, 23)
+        Me.BtnEdit.Size = New System.Drawing.Size(93, 23)
         Me.BtnEdit.TabIndex = 3
         Me.BtnEdit.Text = "Edit"
         Me.BtnEdit.UseVisualStyleBackColor = True
@@ -68,7 +68,7 @@ Partial Class Studio
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(435, 336)
+        Me.ClientSize = New System.Drawing.Size(370, 208)
         Me.Controls.Add(Me.BtnEdit)
         Me.Controls.Add(Me.BtnHapus)
         Me.Controls.Add(Me.BtnTambah)
