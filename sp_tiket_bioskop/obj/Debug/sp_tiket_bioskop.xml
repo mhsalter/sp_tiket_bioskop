@@ -22,5 +22,10 @@ sp_tiket_bioskop
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:sp_tiket_bioskop.My.Resources.Resources.blue_3d_button_minus_sign_vector_22903097">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>
