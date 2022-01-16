@@ -87,3 +87,4 @@ C:\Users\alter\source\repos\sp_tiket_bioskop\sp_tiket_bioskop\obj\Debug\sp_tiket
 C:\Users\alter\source\repos\sp_tiket_bioskop\sp_tiket_bioskop\obj\Debug\sp_tiket_bioskop.Login.resources
 C:\Users\alter\source\repos\sp_tiket_bioskop\sp_tiket_bioskop\obj\Debug\sp_tiket_bioskop.SignUp.resources
 C:\Users\alter\source\repos\sp_tiket_bioskop\sp_tiket_bioskop\obj\Debug\sp_tiket_bioskop.TambahFilm.resources
+C:\Users\alter\source\repos\sp_tiket_bioskop\sp_tiket_bioskop\obj\Debug\sp_tiket_bioskop.Home.resources
