@@ -32,6 +32,5 @@
         FormFilm.Film.dateReleaseProperty = ""
 
         Me.Close()
-
     End Sub
 End Class

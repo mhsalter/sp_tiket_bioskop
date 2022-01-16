@@ -1,10 +1,8 @@
 ﻿Public Class FormFilm
-
     Public Shared Film As Film
     Public Shared SelectedFilm As String
     Public Shared SelectedFilmID As String
     Public Shared SelectedTabKoleksiFilm As String
-
     Public Sub New()
         Film = New Film()
         ' This call is required by the designer.
@@ -13,23 +11,17 @@
         ' Add any initialization after the InitializeComponent() call.
         ReloadDataTableDatabase()
     End Sub
-
     Private Sub ReloadDataTableDatabase()
         DataGridViewFilm.DataSource = Film.GetDataKoleksiDatabase()
     End Sub
-
-
     Private Sub BtnTambah_Click(sender As Object, e As EventArgs) Handles BtnTambah.Click
         Dim tambah_film = New TambahFilm()
         tambah_film.Show()
     End Sub
-
     Private Sub BtnHapus_Click(sender As Object, e As EventArgs) Handles BtnHapus.Click
         Dim formHapus = New HapusFilm()
         formHapus.Show()
     End Sub
-
-
     Private Sub FormFilm_Activated(sender As Object, e As EventArgs) Handles Me.Activated
         ListBoxFilm.Items.Clear()
 
@@ -40,13 +32,10 @@
         ReloadDataTableDatabase()
         UpdateDataTableArrayList()
     End Sub
-
     Private Sub ListBoxFilm_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListBoxFilm.SelectedIndexChanged
         SelectedFilm = ListBoxFilm.SelectedItem()
     End Sub
-
     Public Sub UpdateDataTableArrayList()
-
         For Each rowFilm In Film.getKoleksiDataTable()
             Dim dataTable As String() = {rowFilm(1),
                                          rowFilm(2),
@@ -61,7 +50,6 @@
             DataGridViewFilm.Rows.Clear()
         Next
     End Sub
-
     Private Sub DataGridViewFilm_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridViewFilm.CellClick
         Dim index As Integer = e.RowIndex
         Dim selectedRow As DataGridViewRow
@@ -70,7 +58,6 @@
         SelectedFilmID = selectedRow.Cells(0).Value
         SelectedTabKoleksiFilm = selectedRow.Cells(1).Value
     End Sub
-
     Private Sub BtnEdit_Click(sender As Object, e As EventArgs) Handles BtnEdit.Click
         Dim selectedfilm As List(Of String) = Film.GetDataKoleksiByIDDatabase(SelectedFilmID)
 
@@ -89,7 +76,6 @@
         Dim formUpdate = New EditFilm()
         formUpdate.Show()
     End Sub
-
     Private Sub BtnSelect_Click(sender As Object, e As EventArgs) Handles BtnSelect.Click
         Dim selectedfilm As List(Of String) = Film.GetDataKoleksiByIDDatabase(SelectedFilmID)
 

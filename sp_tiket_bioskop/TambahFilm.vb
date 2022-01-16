@@ -1,5 +1,4 @@
 ﻿Public Class TambahFilm
-
     Dim MaxChar = 50
     Public Sub New()
 
@@ -15,7 +14,7 @@
         FormFilm.Film.genreFilmProperty = CBGenreFilm.SelectedItem().ToString()
         FormFilm.Film.deskripsiFilmProperty = RTBDeskripsi.Text.ToString()
         FormFilm.Film.directorFilmProperty = TxtDirector.Text.ToString()
-        FormFilm.Film.durationFilmProperty = TxtDuration.Text
+        FormFilm.Film.durationFilmProperty = DTPDuration.Value.ToString("HH:mm:ss")
 
         FormFilm.Film.dateReleaseProperty = DateReleaseFilm.Value.ToString("yyyy/MM/dd")
         FormFilm.Film.hargaFilmProperty = Integer.Parse(TxtHargaFilm.Text)
@@ -41,9 +40,7 @@
         Dim Info_Film = New InfoFilm()
         Info_Film.Show()
         Me.Close()
-
     End Sub
-
     Private Sub BtnTambahGambar_Click(sender As Object, e As EventArgs) Handles BtnTambahGambar.Click
         OpenFileDialogFoto.Title = "Open Foto"
         OpenFileDialogFoto.Filter = "Image|*.bmp|Image JPG|*.jpg|Image JPEG|*.jpeg|Image PNG|*.png|Image GIF|*.gif|All Format|*.*"
@@ -56,29 +53,24 @@
         FormFilm.Film.dirGambarFilmProperty = PicKoleksi.ToString()
         FormFilm.Film.dirGambarFilmProperty = FormFilm.Film.dirGambarFilmProperty.Replace("\", "/")
     End Sub
-
     Private Sub TxtNamaFilm_Leave(sender As Object, e As EventArgs) Handles TxtNamaFilm.Leave
         If TxtNamaFilm.Text.Length < 1 Then
             TxtNamaFilm.Select()
             MessageBox.Show("Please add Least 1 String")
         End If
     End Sub
-
-    Private Sub TxtDuration_KeyPress(sender As Object, e As KeyPressEventArgs) Handles TxtDuration.KeyPress
+    Private Sub TxtDuration_KeyPress(sender As Object, e As KeyPressEventArgs) 
         If Not Char.IsNumber(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) Then
             e.Handled = True
             MessageBox.Show("Please Insert Number Only")
         End If
     End Sub
-
     Private Sub TxtHargaFilm_KeyPress(sender As Object, e As KeyPressEventArgs) Handles TxtHargaFilm.KeyPress
         If Not Char.IsNumber(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) Then
             e.Handled = True
             MessageBox.Show("Please Insert Number Only")
         End If
-
     End Sub
-
     Private Sub RTBDeskripsi_KeyPress(sender As Object, e As KeyPressEventArgs) Handles RTBDeskripsi.KeyPress
         If RTBDeskripsi.Text.Length >= MaxChar Then
             If e.KeyChar <> ControlChars.Back Then
@@ -86,7 +78,6 @@
                 MessageBox.Show("Max Length")
             End If
         End If
-
         LblAngka.Text = (MaxChar - RTBDeskripsi.Text.Length)
     End Sub
 End Class

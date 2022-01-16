@@ -13,7 +13,7 @@
         CBGenreFilm.SelectedItem() = FormFilm.Film.genreFilmProperty
         RTBDeskripsi.Text = FormFilm.Film.deskripsiFilmProperty
         TxtDirector.Text = FormFilm.Film.directorFilmProperty
-        TxtDuration.Text = FormFilm.Film.durationFilmProperty
+        DTPDuration.Value = Convert.ToDateTime(FormFilm.Film.durationFilmProperty)
         TxtHargaFilm.Text = FormFilm.Film.hargaFilmProperty
         DateReleaseFilm.Value = FormFilm.Film.dateReleaseProperty
 
@@ -23,9 +23,7 @@
         ElseIf String.Compare(FormFilm.Film.bahasaProperty, "Inggris") = 0 Then
             RBInggris.Checked = True
         End If
-
     End Sub
-
     Private Sub BtnEditGambar_Click(sender As Object, e As EventArgs) Handles BtnEditGambar.Click
         OpenFileDialogFoto.Title = "Open Foto"
         OpenFileDialogFoto.Filter = "Image|*.bmp|Image JPG|*.jpg|Image JPEG|*.jpeg|Image PNG|*.png|Image GIF|*.gif|All Format|*.*"
@@ -38,13 +36,12 @@
         FormFilm.Film.dirGambarFilmProperty = PicFilm.ToString()
         FormFilm.Film.dirGambarFilmProperty = FormFilm.Film.dirGambarFilmProperty.Replace("\", "/")
     End Sub
-
     Private Sub BtnEditFilm_Click(sender As Object, e As EventArgs) Handles BtnEditFilm.Click
         FormFilm.Film.namaFilmProperty = TxtNamaFilm.Text
         FormFilm.Film.genreFilmProperty = CBGenreFilm.SelectedItem().ToString()
         FormFilm.Film.deskripsiFilmProperty = RTBDeskripsi.Text.ToString()
         FormFilm.Film.directorFilmProperty = TxtDirector.Text.ToString()
-        FormFilm.Film.durationFilmProperty = TxtDuration.Text
+        FormFilm.Film.durationFilmProperty = DTPDuration.Value.ToString("HH:mm:ss")
 
         FormFilm.Film.dateReleaseProperty = DateReleaseFilm.Value.ToString("yyyy/MM/dd")
         FormFilm.Film.hargaFilmProperty = Integer.Parse(TxtHargaFilm.Text)
@@ -56,7 +53,7 @@
         End If
 
         FormFilm.Film.AddKoleksiFilm(TxtNamaFilm.Text.ToString())
-        'MessageBox.Show(FormFilm.SelectedTabKoleksiFilm )
+        MessageBox.Show(FormFilm.Film.durationFilmProperty)
         FormFilm.Film.UpdateDataKoleksiByIDDatabase(FormFilm.SelectedFilmID,
                                                     FormFilm.Film.dirGambarFilmProperty,
                                                     FormFilm.Film.namaFilmProperty,

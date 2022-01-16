@@ -178,13 +178,11 @@ Public Class Film
     Public Function RemoveKoleksiDataTable(index As Integer)
         koleksiDataTable.RemoveAt(index)
     End Function
-
     Public ReadOnly Property getKoleksiDataTable() As ArrayList
         Get
             Return koleksiDataTable
         End Get
     End Property
-
     Public Function ConvertKoleksiToString(vals As List(Of String))
         Dim builder As StringBuilder = New StringBuilder()
         For Each val As String In vals
@@ -195,7 +193,6 @@ Public Class Film
         Dim res = builder.ToString()
         Return res
     End Function
-
     Public Function ConvertStringToKoleksi(value As String)
         Dim arr() As String = value.Split("|")
 
@@ -203,7 +200,6 @@ Public Class Film
         Dim vals As List(Of String) = arr.ToList()
         Return vals
     End Function
-
     Public Function GetDataKoleksiDatabase() As DataTable
         Dim result As New DataTable
 
@@ -230,14 +226,13 @@ Public Class Film
         dbConn.Close()
         Return result
     End Function
-
     Public Function AddDataKoleksiDatabase(foto_film As String,
                                            nama_film As String,
                                            genre_film As String,
                                            director_film As String,
                                            deskripsi_film As String,
                                            date_release As String,
-                                           duration_film As String,
+                                           duration_film As DateTime,
                                            harga_film As Integer,
                                            bahasa_film As String)
         dbConn.ConnectionString = "server =" + server + ";" + "user id =" + username + ";" + "password =" + password + ";" + "database =" + database
@@ -275,7 +270,6 @@ Public Class Film
         End Try
 
     End Function
-
     Public Function GetDataKoleksiByIDDatabase(ID As Integer) As List(Of String)
         Dim result As New List(Of String)
 
@@ -315,7 +309,6 @@ Public Class Film
         Return result
 
     End Function
-
     Public Function UpdateDataKoleksiByIDDatabase(ID As Integer,
                                                   foto_film As String,
                                                   nama_film As String,
@@ -323,7 +316,7 @@ Public Class Film
                                                   director_film As String,
                                                   deskripsi_film As String,
                                                   date_release As String,
-                                                  duration_film As String,
+                                                  duration_film As DateTime,
                                                   harga_film As Integer,
                                                   bahasa_film As String)
         dbConn.ConnectionString = "server =" + server + ";" + "user id =" + username + ";" + "password =" + password + ";" + "database =" + database
@@ -331,7 +324,7 @@ Public Class Film
         Try
             dbConn.Open()
             sqlCommand.Connection = dbConn
-            sqlQuery = "UPDATE film SET" &
+            sqlQuery = "UPDATE film SET " &
                 "film ='" & nama_film & "', " &
                 "foto ='" & foto_film & "', " &
                 "deskripsi ='" & deskripsi_film & "', " &
@@ -343,6 +336,7 @@ Public Class Film
                 "bahasa ='" & bahasa_film & "' " &
                 "WHERE id ='" & ID & "'"
 
+            Debug.WriteLine(sqlQuery)
             sqlCommand = New MySqlCommand(sqlQuery, dbConn)
             sqlRead = sqlCommand.ExecuteReader
 
@@ -355,9 +349,7 @@ Public Class Film
         Finally
             dbConn.Dispose()
         End Try
-
     End Function
-
     Public Function DeleteDataKoleksiByIDDatabase(ID As Integer)
 
 
