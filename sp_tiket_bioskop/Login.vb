@@ -10,6 +10,7 @@
         ' Add any initialization after the InitializeComponent() call.
         home = New Home()
         User = New User()
+        TxtBoxPassword.PasswordChar = "*"
     End Sub
     Private Sub BtnLogin_Click(sender As Object, e As EventArgs) Handles BtnLogin.Click
         If TxtBoxNama.Text.Length < 1 Then
