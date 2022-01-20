@@ -22,13 +22,18 @@ Partial Class FormTiket
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormTiket))
         Me.DGVTiket = New System.Windows.Forms.DataGridView()
         Me.BtnTambah = New System.Windows.Forms.Button()
         Me.BtnEdit = New System.Windows.Forms.Button()
         Me.BtnHapus = New System.Windows.Forms.Button()
         Me.DGVJadwal = New System.Windows.Forms.DataGridView()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         CType(Me.DGVTiket, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DGVJadwal, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'DGVTiket
@@ -74,11 +79,34 @@ Partial Class FormTiket
         Me.DGVJadwal.Size = New System.Drawing.Size(861, 150)
         Me.DGVJadwal.TabIndex = 4
         '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
+        Me.PictureBox2.Location = New System.Drawing.Point(458, 171)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(163, 166)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 9
+        Me.PictureBox2.TabStop = False
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(692, 171)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(163, 166)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 10
+        Me.PictureBox1.TabStop = False
+        '
         'FormTiket
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.ClientSize = New System.Drawing.Size(885, 349)
+        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.DGVJadwal)
         Me.Controls.Add(Me.BtnHapus)
         Me.Controls.Add(Me.BtnEdit)
@@ -88,6 +116,8 @@ Partial Class FormTiket
         Me.Text = "FormTiket"
         CType(Me.DGVTiket, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DGVJadwal, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -97,4 +127,6 @@ Partial Class FormTiket
     Friend WithEvents BtnEdit As Button
     Friend WithEvents BtnHapus As Button
     Friend WithEvents DGVJadwal As DataGridView
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

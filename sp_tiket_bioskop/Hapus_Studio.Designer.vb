@@ -58,6 +58,7 @@ Partial Class Hapus_Studio
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.ClientSize = New System.Drawing.Size(296, 137)
         Me.Controls.Add(Me.TBStudio)
         Me.Controls.Add(Me.BtnHapusStudio)

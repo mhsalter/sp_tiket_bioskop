@@ -138,7 +138,8 @@ Partial Class EditTiket
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(364, 212)
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.ClientSize = New System.Drawing.Size(364, 186)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.TBTotalHarga)
         Me.Controls.Add(Me.TBHargaKursi)

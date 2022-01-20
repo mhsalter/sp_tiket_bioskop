@@ -33,7 +33,7 @@ Partial Class Login
         'BtnSignUp
         '
         Me.BtnSignUp.Location = New System.Drawing.Point(171, 149)
-        Me.BtnSignUp.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.BtnSignUp.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnSignUp.Name = "BtnSignUp"
         Me.BtnSignUp.Size = New System.Drawing.Size(64, 23)
         Me.BtnSignUp.TabIndex = 11
@@ -43,7 +43,7 @@ Partial Class Login
         'BtnLogin
         '
         Me.BtnLogin.Location = New System.Drawing.Point(239, 149)
-        Me.BtnLogin.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.BtnLogin.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnLogin.Name = "BtnLogin"
         Me.BtnLogin.Size = New System.Drawing.Size(50, 23)
         Me.BtnLogin.TabIndex = 10
@@ -73,7 +73,7 @@ Partial Class Login
         'TxtBoxPassword
         '
         Me.TxtBoxPassword.Location = New System.Drawing.Point(109, 88)
-        Me.TxtBoxPassword.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TxtBoxPassword.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtBoxPassword.Name = "TxtBoxPassword"
         Me.TxtBoxPassword.Size = New System.Drawing.Size(182, 20)
         Me.TxtBoxPassword.TabIndex = 7
@@ -81,7 +81,7 @@ Partial Class Login
         'TxtBoxNama
         '
         Me.TxtBoxNama.Location = New System.Drawing.Point(109, 53)
-        Me.TxtBoxNama.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TxtBoxNama.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtBoxNama.Name = "TxtBoxNama"
         Me.TxtBoxNama.Size = New System.Drawing.Size(182, 20)
         Me.TxtBoxNama.TabIndex = 6
@@ -90,6 +90,8 @@ Partial Class Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(308, 190)
         Me.Controls.Add(Me.BtnSignUp)
         Me.Controls.Add(Me.BtnLogin)
@@ -97,7 +99,8 @@ Partial Class Login
         Me.Controls.Add(Me.LblNama)
         Me.Controls.Add(Me.TxtBoxPassword)
         Me.Controls.Add(Me.TxtBoxNama)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.DoubleBuffered = True
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Login"
         Me.Text = "Login"
         Me.ResumeLayout(False)

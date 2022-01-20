@@ -51,8 +51,8 @@ Partial Class EditFilm
         '
         'BtnEditGambar
         '
-        Me.BtnEditGambar.Location = New System.Drawing.Point(37, 129)
-        Me.BtnEditGambar.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.BtnEditGambar.Location = New System.Drawing.Point(11, 124)
+        Me.BtnEditGambar.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnEditGambar.Name = "BtnEditGambar"
         Me.BtnEditGambar.Size = New System.Drawing.Size(95, 26)
         Me.BtnEditGambar.TabIndex = 64
@@ -62,7 +62,7 @@ Partial Class EditFilm
         'BtnTambahFilm
         '
         Me.BtnTambahFilm.Location = New System.Drawing.Point(459, 374)
-        Me.BtnTambahFilm.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.BtnTambahFilm.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnTambahFilm.Name = "BtnTambahFilm"
         Me.BtnTambahFilm.Size = New System.Drawing.Size(95, 26)
         Me.BtnTambahFilm.TabIndex = 65
@@ -73,10 +73,10 @@ Partial Class EditFilm
         '
         Me.GroupBox1.Controls.Add(Me.RBInggris)
         Me.GroupBox1.Controls.Add(Me.RBIndonesia)
-        Me.GroupBox1.Location = New System.Drawing.Point(260, 226)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Location = New System.Drawing.Point(234, 221)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2)
         Me.GroupBox1.Size = New System.Drawing.Size(183, 59)
         Me.GroupBox1.TabIndex = 63
         Me.GroupBox1.TabStop = False
@@ -86,7 +86,7 @@ Partial Class EditFilm
         '
         Me.RBInggris.AutoSize = True
         Me.RBInggris.Location = New System.Drawing.Point(4, 36)
-        Me.RBInggris.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RBInggris.Margin = New System.Windows.Forms.Padding(2)
         Me.RBInggris.Name = "RBInggris"
         Me.RBInggris.Size = New System.Drawing.Size(89, 17)
         Me.RBInggris.TabIndex = 1
@@ -98,7 +98,7 @@ Partial Class EditFilm
         '
         Me.RBIndonesia.AutoSize = True
         Me.RBIndonesia.Location = New System.Drawing.Point(4, 16)
-        Me.RBIndonesia.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RBIndonesia.Margin = New System.Windows.Forms.Padding(2)
         Me.RBIndonesia.Name = "RBIndonesia"
         Me.RBIndonesia.Size = New System.Drawing.Size(110, 17)
         Me.RBIndonesia.TabIndex = 0
@@ -108,32 +108,32 @@ Partial Class EditFilm
         '
         'TxtHargaFilm
         '
-        Me.TxtHargaFilm.Location = New System.Drawing.Point(260, 205)
-        Me.TxtHargaFilm.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TxtHargaFilm.Location = New System.Drawing.Point(234, 200)
+        Me.TxtHargaFilm.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtHargaFilm.Name = "TxtHargaFilm"
         Me.TxtHargaFilm.Size = New System.Drawing.Size(185, 20)
         Me.TxtHargaFilm.TabIndex = 62
         '
         'DateReleaseFilm
         '
-        Me.DateReleaseFilm.Location = New System.Drawing.Point(260, 178)
-        Me.DateReleaseFilm.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.DateReleaseFilm.Location = New System.Drawing.Point(234, 173)
+        Me.DateReleaseFilm.Margin = New System.Windows.Forms.Padding(2)
         Me.DateReleaseFilm.Name = "DateReleaseFilm"
         Me.DateReleaseFilm.Size = New System.Drawing.Size(185, 20)
         Me.DateReleaseFilm.TabIndex = 61
         '
         'TxtDirector
         '
-        Me.TxtDirector.Location = New System.Drawing.Point(260, 129)
-        Me.TxtDirector.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TxtDirector.Location = New System.Drawing.Point(234, 124)
+        Me.TxtDirector.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtDirector.Name = "TxtDirector"
         Me.TxtDirector.Size = New System.Drawing.Size(185, 20)
         Me.TxtDirector.TabIndex = 59
         '
         'RTBDeskripsi
         '
-        Me.RTBDeskripsi.Location = New System.Drawing.Point(260, 60)
-        Me.RTBDeskripsi.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RTBDeskripsi.Location = New System.Drawing.Point(234, 55)
+        Me.RTBDeskripsi.Margin = New System.Windows.Forms.Padding(2)
         Me.RTBDeskripsi.Name = "RTBDeskripsi"
         Me.RTBDeskripsi.Size = New System.Drawing.Size(185, 64)
         Me.RTBDeskripsi.TabIndex = 58
@@ -143,24 +143,24 @@ Partial Class EditFilm
         '
         Me.CBGenreFilm.FormattingEnabled = True
         Me.CBGenreFilm.Items.AddRange(New Object() {"Horror", "Action", "Comedy", "Drama", "Romance"})
-        Me.CBGenreFilm.Location = New System.Drawing.Point(260, 38)
-        Me.CBGenreFilm.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.CBGenreFilm.Location = New System.Drawing.Point(234, 33)
+        Me.CBGenreFilm.Margin = New System.Windows.Forms.Padding(2)
         Me.CBGenreFilm.Name = "CBGenreFilm"
         Me.CBGenreFilm.Size = New System.Drawing.Size(185, 21)
         Me.CBGenreFilm.TabIndex = 57
         '
         'TxtNamaFilm
         '
-        Me.TxtNamaFilm.Location = New System.Drawing.Point(260, 16)
-        Me.TxtNamaFilm.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TxtNamaFilm.Location = New System.Drawing.Point(234, 11)
+        Me.TxtNamaFilm.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtNamaFilm.Name = "TxtNamaFilm"
         Me.TxtNamaFilm.Size = New System.Drawing.Size(185, 20)
         Me.TxtNamaFilm.TabIndex = 56
         '
         'PicFoto
         '
-        Me.PicFoto.Location = New System.Drawing.Point(37, 16)
-        Me.PicFoto.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PicFoto.Location = New System.Drawing.Point(11, 11)
+        Me.PicFoto.Margin = New System.Windows.Forms.Padding(2)
         Me.PicFoto.Name = "PicFoto"
         Me.PicFoto.Size = New System.Drawing.Size(95, 103)
         Me.PicFoto.TabIndex = 55
@@ -169,7 +169,7 @@ Partial Class EditFilm
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(136, 224)
+        Me.Label10.Location = New System.Drawing.Point(110, 219)
         Me.Label10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(49, 13)
@@ -179,7 +179,7 @@ Partial Class EditFilm
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(136, 204)
+        Me.Label9.Location = New System.Drawing.Point(110, 199)
         Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(63, 13)
@@ -189,7 +189,7 @@ Partial Class EditFilm
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(136, 178)
+        Me.Label8.Location = New System.Drawing.Point(110, 173)
         Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(99, 13)
@@ -199,7 +199,7 @@ Partial Class EditFilm
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(136, 150)
+        Me.Label6.Location = New System.Drawing.Point(110, 145)
         Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(64, 13)
@@ -209,7 +209,7 @@ Partial Class EditFilm
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(136, 129)
+        Me.Label5.Location = New System.Drawing.Point(110, 124)
         Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(50, 13)
@@ -219,7 +219,7 @@ Partial Class EditFilm
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(136, 60)
+        Me.Label3.Location = New System.Drawing.Point(110, 55)
         Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(56, 13)
@@ -229,7 +229,7 @@ Partial Class EditFilm
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(136, 38)
+        Me.Label2.Location = New System.Drawing.Point(110, 33)
         Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(63, 13)
@@ -239,7 +239,7 @@ Partial Class EditFilm
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(136, 16)
+        Me.Label1.Location = New System.Drawing.Point(110, 11)
         Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(62, 13)
@@ -252,8 +252,8 @@ Partial Class EditFilm
         '
         'BtnEditFilm
         '
-        Me.BtnEditFilm.Location = New System.Drawing.Point(485, 261)
-        Me.BtnEditFilm.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.BtnEditFilm.Location = New System.Drawing.Point(234, 284)
+        Me.BtnEditFilm.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnEditFilm.Name = "BtnEditFilm"
         Me.BtnEditFilm.Size = New System.Drawing.Size(95, 26)
         Me.BtnEditFilm.TabIndex = 66
@@ -264,7 +264,7 @@ Partial Class EditFilm
         '
         Me.DTPDuration.CustomFormat = "HH:mm:ss"
         Me.DTPDuration.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.DTPDuration.Location = New System.Drawing.Point(260, 153)
+        Me.DTPDuration.Location = New System.Drawing.Point(234, 148)
         Me.DTPDuration.Name = "DTPDuration"
         Me.DTPDuration.ShowUpDown = True
         Me.DTPDuration.Size = New System.Drawing.Size(185, 20)
@@ -274,7 +274,8 @@ Partial Class EditFilm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(588, 331)
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.ClientSize = New System.Drawing.Size(443, 323)
         Me.Controls.Add(Me.DTPDuration)
         Me.Controls.Add(Me.BtnEditFilm)
         Me.Controls.Add(Me.BtnEditGambar)
@@ -295,7 +296,7 @@ Partial Class EditFilm
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "EditFilm"
         Me.Text = "EditFilm"
         Me.GroupBox1.ResumeLayout(False)

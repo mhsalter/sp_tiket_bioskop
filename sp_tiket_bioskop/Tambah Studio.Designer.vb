@@ -74,7 +74,8 @@ Partial Class Tambah_Studio
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(281, 116)
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.ClientSize = New System.Drawing.Size(251, 107)
         Me.Controls.Add(Me.BtnTambahStudio)
         Me.Controls.Add(Me.TxtHargaKursi)
         Me.Controls.Add(Me.TxtKapasitas)

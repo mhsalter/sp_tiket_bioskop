@@ -37,7 +37,7 @@ Partial Class TambahJadwal
         '
         'BtnTambah
         '
-        Me.BtnTambah.Location = New System.Drawing.Point(161, 252)
+        Me.BtnTambah.Location = New System.Drawing.Point(163, 199)
         Me.BtnTambah.Name = "BtnTambah"
         Me.BtnTambah.Size = New System.Drawing.Size(75, 23)
         Me.BtnTambah.TabIndex = 0
@@ -47,7 +47,7 @@ Partial Class TambahJadwal
         'DTPJadwal
         '
         Me.DTPJadwal.CustomFormat = ""
-        Me.DTPJadwal.Location = New System.Drawing.Point(199, 110)
+        Me.DTPJadwal.Location = New System.Drawing.Point(199, 81)
         Me.DTPJadwal.Name = "DTPJadwal"
         Me.DTPJadwal.Size = New System.Drawing.Size(200, 20)
         Me.DTPJadwal.TabIndex = 2
@@ -56,7 +56,7 @@ Partial Class TambahJadwal
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(12, 38)
+        Me.Label1.Location = New System.Drawing.Point(12, 9)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(40, 18)
         Me.Label1.TabIndex = 3
@@ -66,7 +66,7 @@ Partial Class TambahJadwal
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(12, 73)
+        Me.Label2.Location = New System.Drawing.Point(12, 44)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(56, 18)
         Me.Label2.TabIndex = 4
@@ -76,7 +76,7 @@ Partial Class TambahJadwal
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(12, 110)
+        Me.Label3.Location = New System.Drawing.Point(12, 81)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(67, 18)
         Me.Label3.TabIndex = 5
@@ -86,7 +86,7 @@ Partial Class TambahJadwal
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(12, 146)
+        Me.Label4.Location = New System.Drawing.Point(12, 117)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(101, 18)
         Me.Label4.TabIndex = 6
@@ -96,7 +96,7 @@ Partial Class TambahJadwal
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(12, 190)
+        Me.Label5.Location = New System.Drawing.Point(12, 161)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(116, 18)
         Me.Label5.TabIndex = 7
@@ -105,7 +105,7 @@ Partial Class TambahJadwal
         'CBFilm
         '
         Me.CBFilm.FormattingEnabled = True
-        Me.CBFilm.Location = New System.Drawing.Point(199, 39)
+        Me.CBFilm.Location = New System.Drawing.Point(199, 10)
         Me.CBFilm.Name = "CBFilm"
         Me.CBFilm.Size = New System.Drawing.Size(200, 21)
         Me.CBFilm.TabIndex = 9
@@ -113,7 +113,7 @@ Partial Class TambahJadwal
         'CBStudio
         '
         Me.CBStudio.FormattingEnabled = True
-        Me.CBStudio.Location = New System.Drawing.Point(199, 74)
+        Me.CBStudio.Location = New System.Drawing.Point(199, 45)
         Me.CBStudio.Name = "CBStudio"
         Me.CBStudio.Size = New System.Drawing.Size(200, 21)
         Me.CBStudio.TabIndex = 10
@@ -122,7 +122,7 @@ Partial Class TambahJadwal
         '
         Me.DTPWaktuMulai.CustomFormat = "HH:mm:ss"
         Me.DTPWaktuMulai.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.DTPWaktuMulai.Location = New System.Drawing.Point(199, 146)
+        Me.DTPWaktuMulai.Location = New System.Drawing.Point(199, 117)
         Me.DTPWaktuMulai.Name = "DTPWaktuMulai"
         Me.DTPWaktuMulai.ShowUpDown = True
         Me.DTPWaktuMulai.Size = New System.Drawing.Size(200, 20)
@@ -133,7 +133,7 @@ Partial Class TambahJadwal
         Me.DTPWaktuSelesai.CustomFormat = "HH:mm:ss"
         Me.DTPWaktuSelesai.Enabled = False
         Me.DTPWaktuSelesai.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.DTPWaktuSelesai.Location = New System.Drawing.Point(199, 190)
+        Me.DTPWaktuSelesai.Location = New System.Drawing.Point(199, 161)
         Me.DTPWaktuSelesai.Name = "DTPWaktuSelesai"
         Me.DTPWaktuSelesai.ShowUpDown = True
         Me.DTPWaktuSelesai.Size = New System.Drawing.Size(200, 20)
@@ -143,7 +143,8 @@ Partial Class TambahJadwal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(436, 352)
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.ClientSize = New System.Drawing.Size(419, 239)
         Me.Controls.Add(Me.DTPWaktuSelesai)
         Me.Controls.Add(Me.DTPWaktuMulai)
         Me.Controls.Add(Me.CBStudio)

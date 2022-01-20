@@ -33,9 +33,10 @@ Partial Class SignUp
         '
         'BtnSignUp
         '
-        Me.BtnSignUp.Location = New System.Drawing.Point(323, 198)
+        Me.BtnSignUp.Location = New System.Drawing.Point(215, 129)
+        Me.BtnSignUp.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.BtnSignUp.Name = "BtnSignUp"
-        Me.BtnSignUp.Size = New System.Drawing.Size(107, 36)
+        Me.BtnSignUp.Size = New System.Drawing.Size(71, 23)
         Me.BtnSignUp.TabIndex = 16
         Me.BtnSignUp.Text = "Sign Up"
         Me.BtnSignUp.UseVisualStyleBackColor = True
@@ -43,56 +44,63 @@ Partial Class SignUp
         'LblPassword
         '
         Me.LblPassword.AutoSize = True
-        Me.LblPassword.Location = New System.Drawing.Point(33, 150)
+        Me.LblPassword.Location = New System.Drawing.Point(22, 97)
+        Me.LblPassword.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LblPassword.Name = "LblPassword"
-        Me.LblPassword.Size = New System.Drawing.Size(78, 20)
+        Me.LblPassword.Size = New System.Drawing.Size(53, 13)
         Me.LblPassword.TabIndex = 15
         Me.LblPassword.Text = "Password"
         '
         'LblNama
         '
         Me.LblNama.AutoSize = True
-        Me.LblNama.Location = New System.Drawing.Point(33, 95)
+        Me.LblNama.Location = New System.Drawing.Point(22, 62)
+        Me.LblNama.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LblNama.Name = "LblNama"
-        Me.LblNama.Size = New System.Drawing.Size(51, 20)
+        Me.LblNama.Size = New System.Drawing.Size(35, 13)
         Me.LblNama.TabIndex = 14
         Me.LblNama.Text = "Nama"
         '
         'TxtBoxPassword
         '
-        Me.TxtBoxPassword.Location = New System.Drawing.Point(159, 144)
+        Me.TxtBoxPassword.Location = New System.Drawing.Point(106, 94)
+        Me.TxtBoxPassword.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TxtBoxPassword.Name = "TxtBoxPassword"
-        Me.TxtBoxPassword.Size = New System.Drawing.Size(271, 26)
+        Me.TxtBoxPassword.Size = New System.Drawing.Size(182, 20)
         Me.TxtBoxPassword.TabIndex = 13
         '
         'TxtBoxNama
         '
-        Me.TxtBoxNama.Location = New System.Drawing.Point(159, 89)
+        Me.TxtBoxNama.Location = New System.Drawing.Point(106, 58)
+        Me.TxtBoxNama.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TxtBoxNama.Name = "TxtBoxNama"
-        Me.TxtBoxNama.Size = New System.Drawing.Size(271, 26)
+        Me.TxtBoxNama.Size = New System.Drawing.Size(182, 20)
         Me.TxtBoxNama.TabIndex = 12
         '
         'TxtBoxEmail
         '
-        Me.TxtBoxEmail.Location = New System.Drawing.Point(159, 38)
+        Me.TxtBoxEmail.Location = New System.Drawing.Point(106, 25)
+        Me.TxtBoxEmail.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TxtBoxEmail.Name = "TxtBoxEmail"
-        Me.TxtBoxEmail.Size = New System.Drawing.Size(271, 26)
+        Me.TxtBoxEmail.Size = New System.Drawing.Size(182, 20)
         Me.TxtBoxEmail.TabIndex = 17
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(33, 44)
+        Me.Label1.Location = New System.Drawing.Point(22, 29)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(48, 20)
+        Me.Label1.Size = New System.Drawing.Size(32, 13)
         Me.Label1.TabIndex = 18
         Me.Label1.Text = "Email"
         '
         'SignUp
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(462, 255)
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.ClientSize = New System.Drawing.Size(308, 166)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TxtBoxEmail)
         Me.Controls.Add(Me.BtnSignUp)
@@ -100,6 +108,7 @@ Partial Class SignUp
         Me.Controls.Add(Me.LblNama)
         Me.Controls.Add(Me.TxtBoxPassword)
         Me.Controls.Add(Me.TxtBoxNama)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "SignUp"
         Me.Text = "SignUp"
         Me.ResumeLayout(False)

@@ -74,7 +74,7 @@ Partial Class Edit_Studio
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.Control
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.ClientSize = New System.Drawing.Size(273, 123)
         Me.Controls.Add(Me.BtnEditStudio)
         Me.Controls.Add(Me.TxtHargaKursi)

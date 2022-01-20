@@ -29,9 +29,10 @@ Partial Class HapusFilm
         '
         'BtnHapus
         '
-        Me.BtnHapus.Location = New System.Drawing.Point(208, 316)
+        Me.BtnHapus.Location = New System.Drawing.Point(139, 205)
+        Me.BtnHapus.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.BtnHapus.Name = "BtnHapus"
-        Me.BtnHapus.Size = New System.Drawing.Size(88, 39)
+        Me.BtnHapus.Size = New System.Drawing.Size(59, 25)
         Me.BtnHapus.TabIndex = 8
         Me.BtnHapus.Text = "Hapus"
         Me.BtnHapus.UseVisualStyleBackColor = True
@@ -40,9 +41,10 @@ Partial Class HapusFilm
         '
         Me.LblNamaFilm.Font = New System.Drawing.Font("Microsoft Sans Serif", 22.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LblNamaFilm.ForeColor = System.Drawing.Color.DarkBlue
-        Me.LblNamaFilm.Location = New System.Drawing.Point(47, 119)
+        Me.LblNamaFilm.Location = New System.Drawing.Point(31, 77)
+        Me.LblNamaFilm.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LblNamaFilm.Name = "LblNamaFilm"
-        Me.LblNamaFilm.Size = New System.Drawing.Size(405, 184)
+        Me.LblNamaFilm.Size = New System.Drawing.Size(270, 120)
         Me.LblNamaFilm.TabIndex = 7
         Me.LblNamaFilm.Text = "Nama Film"
         Me.LblNamaFilm.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -50,20 +52,23 @@ Partial Class HapusFilm
         'Label1
         '
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(106, 92)
+        Me.Label1.Location = New System.Drawing.Point(71, 60)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(322, 27)
+        Me.Label1.Size = New System.Drawing.Size(215, 18)
         Me.Label1.TabIndex = 6
         Me.Label1.Text = "Apakah Ingin Menghapus Film?"
         '
         'HapusFilm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(497, 450)
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.ClientSize = New System.Drawing.Size(331, 292)
         Me.Controls.Add(Me.BtnHapus)
         Me.Controls.Add(Me.LblNamaFilm)
         Me.Controls.Add(Me.Label1)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "HapusFilm"
         Me.Text = "HapusFilm"
         Me.ResumeLayout(False)

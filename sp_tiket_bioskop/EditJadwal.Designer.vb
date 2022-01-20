@@ -134,7 +134,7 @@ Partial Class EditJadwal
         '
         'BtnUpdate
         '
-        Me.BtnUpdate.Location = New System.Drawing.Point(163, 234)
+        Me.BtnUpdate.Location = New System.Drawing.Point(163, 215)
         Me.BtnUpdate.Name = "BtnUpdate"
         Me.BtnUpdate.Size = New System.Drawing.Size(75, 23)
         Me.BtnUpdate.TabIndex = 13
@@ -145,7 +145,8 @@ Partial Class EditJadwal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(449, 285)
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.ClientSize = New System.Drawing.Size(417, 256)
         Me.Controls.Add(Me.DTPWaktuSelesai)
         Me.Controls.Add(Me.DTPWaktuMulai)
         Me.Controls.Add(Me.CBStudio)

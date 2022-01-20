@@ -91,7 +91,7 @@ Partial Class TambahFilm
         'BtnTambahFilm
         '
         Me.BtnTambahFilm.BackColor = System.Drawing.SystemColors.Window
-        Me.BtnTambahFilm.Location = New System.Drawing.Point(445, 306)
+        Me.BtnTambahFilm.Location = New System.Drawing.Point(241, 296)
         Me.BtnTambahFilm.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnTambahFilm.Name = "BtnTambahFilm"
         Me.BtnTambahFilm.Size = New System.Drawing.Size(95, 26)
@@ -278,7 +278,8 @@ Partial Class TambahFilm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(703, 343)
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.ClientSize = New System.Drawing.Size(447, 343)
         Me.Controls.Add(Me.DTPDuration)
         Me.Controls.Add(Me.LblAngka)
         Me.Controls.Add(Me.BtnTambahGambar)
