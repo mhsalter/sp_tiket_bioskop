@@ -44,7 +44,7 @@
                                                     Jadwal.Cjadwal.GSwaktu_selesai
                                                     )
 
-        'Buka Info
+        'Tutup Jadwal
         Me.Close()
     End Sub
 End Class

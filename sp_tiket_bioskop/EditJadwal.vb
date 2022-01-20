@@ -42,7 +42,7 @@
         Jadwal.Cjadwal.GSwaktu_mulai = DTPWaktuMulai.Value.ToString("HH:mm:ss")
         Jadwal.Cjadwal.GSwaktu_selesai = DTPWaktuSelesai.Value.ToString("HH:mm:ss")
 
-        'addJadwal
+        'EditJadwal
         Jadwal.Cjadwal.UpdateDataJadwalByID(Jadwal.SelectedDataJadwal,
                                                     Jadwal.Cjadwal.GSid_film,
                                                     Jadwal.Cjadwal.GSid_studio,
@@ -51,7 +51,7 @@
                                                     Jadwal.Cjadwal.GSwaktu_selesai
                                                     )
 
-        'Buka Info
+        'tutup edit
         Me.Close()
 
     End Sub

@@ -46,7 +46,7 @@
     Private Sub BtnHapus_Click(sender As Object, e As EventArgs) Handles BtnHapus.Click
         If SelectedDataJadwal IsNot Nothing Then
             Dim Hapus = New HapusJadwal()
-            HapusJadwal.Show()
+            Hapus.Show()
         End If
     End Sub
 End Class

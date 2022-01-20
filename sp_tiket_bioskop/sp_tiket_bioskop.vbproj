@@ -117,6 +117,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClassTiket.vb" />
     <Compile Include="Class_Studio.vb" />
     <Compile Include="EditFilm.Designer.vb">
       <DependentUpon>EditFilm.vb</DependentUpon>
@@ -128,6 +129,12 @@
       <DependentUpon>EditJadwal.vb</DependentUpon>
     </Compile>
     <Compile Include="EditJadwal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditTiket.Designer.vb">
+      <DependentUpon>EditTiket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditTiket.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Edit_Studio.Designer.vb">
@@ -143,6 +150,12 @@
     <Compile Include="FormFilm.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormTiket.Designer.vb">
+      <DependentUpon>FormTiket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormTiket.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="HapusFilm.Designer.vb">
       <DependentUpon>HapusFilm.vb</DependentUpon>
     </Compile>
@@ -153,6 +166,12 @@
       <DependentUpon>HapusJadwal.vb</DependentUpon>
     </Compile>
     <Compile Include="HapusJadwal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HapusTiket.Designer.vb">
+      <DependentUpon>HapusTiket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HapusTiket.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Hapus_Studio.Designer.vb">
@@ -232,6 +251,12 @@
     <Compile Include="TambahJadwal.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="TambahTiket.Designer.vb">
+      <DependentUpon>TambahTiket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TambahTiket.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="User.vb" />
   </ItemGroup>
   <ItemGroup>
@@ -241,17 +266,26 @@
     <EmbeddedResource Include="EditJadwal.resx">
       <DependentUpon>EditJadwal.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EditTiket.resx">
+      <DependentUpon>EditTiket.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Edit_Studio.resx">
       <DependentUpon>Edit_Studio.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormFilm.resx">
       <DependentUpon>FormFilm.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormTiket.resx">
+      <DependentUpon>FormTiket.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HapusFilm.resx">
       <DependentUpon>HapusFilm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HapusJadwal.resx">
       <DependentUpon>HapusJadwal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HapusTiket.resx">
+      <DependentUpon>HapusTiket.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Hapus_Studio.resx">
       <DependentUpon>Hapus_Studio.vb</DependentUpon>
@@ -288,6 +322,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TambahJadwal.resx">
       <DependentUpon>TambahJadwal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TambahTiket.resx">
+      <DependentUpon>TambahTiket.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
