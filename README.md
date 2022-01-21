@@ -49,26 +49,17 @@ Project akhir ini dikerjakan oleh :
 20. Hapus Tiket
 
 ### Fitur
-1. Dapat Login dan Register
-2. User merupakan admin dari sistem
-3. Form Home merupakan menu utama dari sistem penjualan ini
-4. Form Home Film berisi deskripsi tentang film yang ada
-5. Form Info Film merupakan form dimana admin dapat mengecek data film lebih mudah
-6. Form Tambah Film merupakan form dimana admin mengisi data film terbaru
-7. Form Update Film merupakan form dimana admin mengganti data dari film yang ada
-8. Form Hapus Film merupakan form dimana admin menghapus data film yang ada
-9. Form Home Studio berisi data studio yaitu kapasitas dan harga kursi di studio tersebut
-10. Form Tambah Studio merupakan form dimana admin mengisi data studio terbaru
-11. Form Update Studio merupakan form dimana admin mengganti data dari studio yang ada
-12. Form Hapus Studio merupakan form dimana admin menghapus data studio yang ada
-13. Form Home Jadwal Tayang berisi data jadwal tayang dari film dan studio mana film tersebut tayang
-14. Form Tambah Jadwal Tayang merupakan form dimana admin mengisi data Jadwal Tayang terbaru
-15. Form Update Jadwal Tayang merupakan form dimana admin mengganti data dari Jadwal Tayang yang ada
-16. Form Hapus Jadwal Tayang merupakan form dimana admin menghapus data Jadwal Tayang yang ada
-17. Form Home Tiket berisi data jadwal tayang dan data tiket yang dijual beserta film dan studio mana tiket itu berlaku
-18. Form Tambah Tiket merupakan form dimana admin mengisi data Tiket terbaru
-19. Form Update Tiket merupakan form dimana admin mengganti data dari Tiket yang ada
-20. Form Hapus Tiket merupakan form dimana admin menghapus data Tiket yang ada
+1. Sign In, dan Sign Up
+2. User merupakan penjual admin
+3. Form studio merupakan informasi studio / tempat menonton bioskop yang ada di satu
+tempat beserta kapasitas nya dan harga kursi
+4. Form Film merupakan informasi film yang ditawarkan tayang di bioskop beserta
+harga tonton film
+5. Form Jadwal tayang merupakan jadwal yang berisi kapan dan di studio mana film di
+tayangkan
+6. Form Tiket berisi jadwal yang mana tiket di jual dan total harga tiket yang di dapat
+dari harga kursi ditambah harga tonton film
+
 
 ### Table
 1. User : ( id, nama, email, password )
